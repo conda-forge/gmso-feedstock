@@ -1,5 +1,5 @@
 {% set name = "gmso" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/mosdef-hub/gmso/archive/{{ version }}.tar.gz
-  sha256: 75e94bebffbd83d00466c70a75ffa092e194bc3043db8c9e54a26a7df9280aa3
+  sha256: 687d9ef0a90f6600cfb35a98a4ec6f43c50087c6bca6ccbf5dba3ac11ca74aff
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.rst
-  summary: 'Flexible storage of chemical topology for molecular simulation.'
+  summary: Flexible storage of chemical topology for molecular simulation.
 
   description: |
     GMSO is designed to enable the flexible, general representation of chemical
