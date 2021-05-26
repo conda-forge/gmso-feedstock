@@ -27,7 +27,7 @@ requirements:
     - python >=3.6
     - pydantic
     - networkx
-    - ele >= 0.2.0
+    - ele>=0.2.0
 
 test:
   imports:
