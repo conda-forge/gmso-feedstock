@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - lxml
     - numpy
     - sympy
-    - unyt >=2.4
+    - unyt <=2.8
     - python >=3.6
     - pydantic <1.9.0
     - networkx
