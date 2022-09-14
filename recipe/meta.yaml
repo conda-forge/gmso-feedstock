@@ -17,16 +17,18 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools
   run:
     - boltons
     - lxml
     - numpy
     - sympy
-    - unyt <=2.8
-    - python >=3.6
-    - pydantic <1.9.0
+    - unyt
+    - python >=3.8
+    - pydantic >1.8
+    - foyer >=0.11.3
+    - forcefield-utilities >=0.2.1
     - networkx
     - ele >=0.2.0
     - setuptools
