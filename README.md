@@ -1,11 +1,11 @@
-About gmso
-==========
+About gmso-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gmso-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mosdef-hub/gmso
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gmso-feedstock/blob/main/LICENSE.txt)
 
 Summary: Flexible storage of chemical topology for molecular simulation.
 
