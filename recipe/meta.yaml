@@ -1,5 +1,5 @@
 {% set name = "gmso" %}
-{% set version = "0.9.1" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mosdef-hub/gmso/archive/{{ version }}.tar.gz
-  sha256: 0aeafdba897dc8a96ecc0f18553d9faa50c24aa97fabe6cbf5e008f74f9b0d2a
+  sha256: 55a43bff1e9c2693c4fe66cc42f43d7ec14ec02026aca713d3bb526372bd582e
 
 build:
   noarch: python
@@ -24,12 +24,14 @@ requirements:
     - lxml
     - numpy
     - sympy
-    - unyt
+    - unyt <=2.9.2
     - python >=3.8
     - pydantic >1.8
     - foyer >=0.11.3
     - forcefield-utilities >=0.2.1
     - networkx
+    - symengine
+    - python-symengine
     - ele >=0.2.0
     - setuptools
 
