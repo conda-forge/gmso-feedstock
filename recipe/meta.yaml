@@ -24,7 +24,7 @@ requirements:
     - lxml
     - numpy
     - sympy
-    - unyt<=2.9.2
+    - unyt <=2.9.2
     - python >=3.8
     - pydantic >1.8
     - foyer >=0.11.3
