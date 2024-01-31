@@ -30,8 +30,8 @@ requirements:
     - foyer >=0.11.3
     - forcefield-utilities >=0.2.1
     - networkx
-    - symengine
-    - python-symengine
+    - symengine =0.10.0
+    - python-symengine =0.11.1
     - ele >=0.2.0
     - setuptools
     - importlib_resources
