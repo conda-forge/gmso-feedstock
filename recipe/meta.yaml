@@ -28,10 +28,10 @@ requirements:
     - python >=3.8,<=3.11
     - pydantic >=2
     - foyer >=0.11.3
-    - forcefield-utilities >=0.2.1
+    - forcefield-utilities >=0.3.0
     - networkx
-    - symengine =0.10.0
-    - python-symengine =0.11.1
+    - symengine
+    - python-symengine
     - ele >=0.2.0
     - setuptools
     - importlib_resources
