@@ -159,4 +159,5 @@ Feedstock Maintainers
 * [@rmatsum836](https://github.com/rmatsum836/)
 * [@umesh-timalsina](https://github.com/umesh-timalsina/)
 * [@uppittu11](https://github.com/uppittu11/)
+* [@CalCraven](https://github.com/CalCraven/)
 
