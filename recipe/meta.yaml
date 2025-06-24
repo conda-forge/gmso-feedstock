@@ -37,11 +37,11 @@ requirements:
     - importlib_resources
     - zstd
 
-#test:
-#  requires:
-#    - python {{ python_min }}
-#  imports:
-#    - gmso
+test:
+  requires:
+    - python {{ python_min }}
+  imports:
+    - gmso
 
 about:
   home: https://github.com/mosdef-hub/gmso
