@@ -1,5 +1,5 @@
 {% set name = "gmso" %}
-{% set version = "0.13.0" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mosdef-hub/gmso/archive/{{ version }}.tar.gz
-  sha256: eaa5b5201e6487207385b30b623f4b252a836608416141dd47f146f621f7abb9
+  sha256: ef0af6e7e46fc240c614f6860c7a1d6dccf211ec77efc7d3b63356c56318c84f
 
 build:
   noarch: python
