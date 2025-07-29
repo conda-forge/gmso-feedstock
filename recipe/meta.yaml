@@ -22,7 +22,7 @@ requirements:
   run:
     - boltons
     - lxml
-    - numpy >=2.0
+    - numpy >=2.0,<2.3
     - sympy
     - unyt >2.9.5
     - python >={{ python_min }},<=3.13a0
